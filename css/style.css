@@ -212,6 +212,11 @@ body {
     }
 }
 
+.team-item .row {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
 .team-carousel .owl-nav {
     position: absolute;
     padding: 0 45px;
