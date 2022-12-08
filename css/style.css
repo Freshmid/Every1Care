@@ -1,14 +1,23 @@
 /********** Template CSS **********/
 :root {
-    --primary: #072768;
+    --primary: #204177;
     --secondary: #5079B2;
     --light: #FFF7E9;
     --dark: #1D2A4D;
     --brown: #9D785D;
 }
 
+
 body {
     background-color: var(--light);
+}
+
+.ec_logo {
+    width: 40px;
+}
+
+.head_logo {
+    width: 100px;
 }
 
 .btn {
@@ -117,7 +126,7 @@ body {
 .hero-header .container-fluid {
     height: 100%;
     width: 100%;
-    background-color: rgba(157, 120, 93, 0.2);
+    background-color: rgba(53, 53, 53, 0.4);
 }
 
 .hero-header .container-fluid .row {
@@ -132,7 +141,7 @@ body {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     position: relative;
     height: 350px;
-    padding: 0 30px;
+    /* padding: 0 30px; */
     transition: .5s;
 }
 
@@ -208,7 +217,7 @@ body {
 
 @media (min-width: 576px) {
     .team-item .row {
-        height: 350px;
+        height: 450px;
     }
 }
 
@@ -219,7 +228,7 @@ body {
 
 .team-carousel .owl-nav {
     position: absolute;
-    padding: 0 45px;
+    padding: 0 10px;
     width: 100%;
     height: 45px;
     top: calc(50% - 22.5px);
@@ -273,7 +282,12 @@ body {
     background: var(--primary);
 }
 
+
 .testimonial-carousel .owl-item img {
     width: 150px;
     height: 150px;
+}
+
+.testimonial-item img {
+    object-fit:contain;
 }
